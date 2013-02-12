@@ -2,3 +2,4 @@ auto-save-alist/*
 el-get/*
 elisp/*
 ac-comphist.dat
+*.elc
