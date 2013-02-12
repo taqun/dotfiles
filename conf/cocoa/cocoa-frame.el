@@ -14,8 +14,8 @@
         (append (list
                  '(top . 0)
                  '(left . 0)
-                 '(width . 271)
-                 '(height . 74))
+                 '(width . 237)
+                 '(height . 69))
                 initial-frame-alist))))
 
 ;; 透明度
