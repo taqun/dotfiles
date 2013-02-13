@@ -14,6 +14,11 @@
   ;; do something
   ))
 
+;;
+;; Path
+;;----------------------------------------------------------------------------------
+
+(setenv "PERL5LIB" (concat (getenv "HOME") "/perl5/lib/perl5"))
 
 ;;
 ;; Config
