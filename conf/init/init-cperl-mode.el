@@ -12,3 +12,8 @@
 (setq cperl-close-paren-offset -4)
 (setq cperl-tab-always-indent t)
 (setq cperl-highlight-variables-indiscriminately t)
+
+
+(add-hook 'cperl-mode-hook
+          (lambda()
+            (flymake-mode t)))

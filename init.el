@@ -1,5 +1,6 @@
 (dolist (conf (list 
-               "el-get.el"))
+               "el-get.el"
+               "flymake.el"))
   (load (concat user-emacs-directory "conf/" conf)))
 
 
