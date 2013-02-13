@@ -19,4 +19,6 @@
           auto-complete
           popwin
           color-theme-tomorrow
+          cperl-mode
+          perl-completion
           ))
