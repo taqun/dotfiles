@@ -2,5 +2,5 @@
        :description "Emacs highlighting using chriskempson's tomorrow color scheme"
        :type github
        :pkgname "chriskempson/tomorrow-theme"
-       :prepare (progn (add-to-list 'custom-theme-load-path
-                                    (concat default-directory "GNU Emacs/"))))
+       :prepare (add-to-list 'custom-theme-load-path 
+                             (concat default-directory "GNU Emacs/")))
