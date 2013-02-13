@@ -1,4 +1,13 @@
 (cond 
+ ;; 1280 * 1024
+ ((= (display-pixel-width) 1280)
+  (setq initial-frame-alist
+        (append (list
+                 '(top . 0)
+                 '(left . 0)
+                 '(width . 157)
+                 '(height . 58))
+                initial-frame-alist)))
  ;; 1440 * 900
  ((= (display-pixel-width) 1440)
   (setq initial-frame-alist
