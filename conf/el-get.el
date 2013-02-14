@@ -21,4 +21,5 @@
           color-theme-tomorrow
           cperl-mode
           perl-completion
+          apache-mode
           ))
