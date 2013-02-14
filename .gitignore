@@ -2,4 +2,5 @@ auto-save-list/*
 el-get/*
 elisp/*
 ac-comphist.dat
+tramp
 *.elc
