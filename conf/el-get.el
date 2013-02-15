@@ -22,4 +22,5 @@
           cperl-mode
           perl-completion
           apache-mode
+          web-mode
           ))
