@@ -23,4 +23,5 @@
           perl-completion
           apache-mode
           web-mode
+          js2-mode
           ))
