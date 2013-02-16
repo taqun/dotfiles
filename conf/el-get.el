@@ -24,4 +24,5 @@
           apache-mode
           web-mode
           js2-mode
+          scss-mode
           ))
