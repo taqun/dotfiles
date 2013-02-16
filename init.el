@@ -18,7 +18,7 @@
 ;; Path
 ;;----------------------------------------------------------------------------------
 
-(setenv "PERL5LIB" (concat (getenv "HOME") "/perl5/lib/perl5"))
+(setenv "PERL5LIB" (expand-file-name "~/perl5/lib/perl5"))
 
 ;;
 ;; Config
