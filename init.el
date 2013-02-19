@@ -20,6 +20,8 @@
 
 (setenv "PERL5LIB" (expand-file-name "~/perl5/lib/perl5"))
 
+(setq exec-path (cons (expand-file-name "~/gems/bin") exec-path))
+
 ;;
 ;; Config
 ;;----------------------------------------------------------------------------------
