@@ -1,12 +1,12 @@
 [user]
-	name = taqun
-	email = envoixnet@gmail.com
+    name = taqun
+    email = envoixnet@gmail.com
 [credential]
-	helper = osxkeychain
+    helper = osxkeychain
 [color]
-	ui = auto
+    ui = auto
 [core]
-	excludesfile = ~/.gitignore
+    excludesfile = ~/.gitignore
 [alias]
     st = status
     co = checkout
