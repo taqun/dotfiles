@@ -1,0 +1,13 @@
+[user]
+	name = taqun
+	email = envoixnet@gmail.com
+[credential]
+	helper = osxkeychain
+[color]
+	ui = auto
+[core]
+	excludesfile = ~/.gitignore
+[alias]
+    st = status
+    co = checkout
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
