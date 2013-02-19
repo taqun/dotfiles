@@ -16,4 +16,5 @@
 (add-hook 'scss-mode-hook 
           (lambda ()
             (add-to-list 'ac-sources 'ac-source-css-property-names)
+            (flymake-mode t)
             ))
