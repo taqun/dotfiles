@@ -19,3 +19,7 @@ export LSCOLORS='gxfxcxdxbxegedabagacad'
 # PERL
 export PERL5LIB=~/perl5/lib/perl5/
 export PERL_CPANM_OPT="--local-lib=~/perl5"
+
+# Ruby
+export GEM_HOME=~/gems
+export PATH=~/gems/bin:$PATH
