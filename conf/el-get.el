@@ -21,6 +21,7 @@
           color-theme-tomorrow
           cperl-mode
           perl-completion
+          yaml-mode
           apache-mode
           web-mode
           js2-mode
