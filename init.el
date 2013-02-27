@@ -24,6 +24,9 @@
 (setenv "PATH" (concat (expand-file-name "~/gems/bin") ":" (getenv "PATH")))
 (setq exec-path (cons (expand-file-name "~/gems/bin") exec-path))
 
+(setenv "PATH" (concat (expand-file-name "~/perl5/bin") ":" (getenv "PATH")))
+(setq exec-path (cons (expand-file-name "~/perl5/bin") exec-path))
+
 ;;
 ;; Config
 ;;----------------------------------------------------------------------------------
