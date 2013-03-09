@@ -6,7 +6,7 @@ source ~/.git-prompt.sh
 export PS1='\h:\w$(__git_ps1) \u\$ '
 
 # PATH
-export PATH=~/perl5/bin:$PATH
+export PATH=~/perl5/bin:/usr/local/bin:$PATH
 
 # LANG
 export LANG=ja_JP.UTF-8
