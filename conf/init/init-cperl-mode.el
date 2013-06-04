@@ -4,6 +4,7 @@
 (add-to-list 'auto-mode-alist '("\\.pm$" . cperl-mode))
 (add-to-list 'auto-mode-alist '("\\.cgi$" . cperl-mode))
 (add-to-list 'auto-mode-alist '("\\.psgi$" . cperl-mode))
+(add-to-list 'auto-mode-alist '("\\.t$" . cperl-mode))
 
 (setq cperl-indent-level 4)
 (setq cperl-continued-statement-offset 4)
