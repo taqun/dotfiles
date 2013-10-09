@@ -12,7 +12,6 @@
                      "cocoa-font.el"))
         (load (concat user-emacs-directory "conf/cocoa/" conf))))
      ((equal window-system nil)
-      ;; do something
       (dolist (conf (list
                      "nw-frame.el"))
         (load (concat user-emacs-directory "conf/nw/" conf)))))))
