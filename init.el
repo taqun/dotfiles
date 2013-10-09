@@ -1,18 +1,20 @@
-(dolist (conf (list 
-               "el-get.el"
-               "flymake.el"))
-  (load (concat user-emacs-directory "conf/" conf)))
-
-
-(cond 
- ((equal window-system 'ns)
-  (dolist (conf (list 
-                 "cocoa-frame.el"
-                 "cocoa-font.el"))
-    (load (concat user-emacs-directory "conf/cocoa/" conf))))
- ((equal window-system nil)
-  ;; do something
-  ))
+(let* ((user-emacs-directory 
+        (substring (or load-file-name "~/.emacs.d/init.el") 0 -7)))
+  (progn
+    (dolist (conf (list 
+                   "el-get.el"
+                   "flymake.el"))
+      (load (concat user-emacs-directory "conf/" conf)))
+    (cond 
+     ((equal window-system 'ns)
+      (dolist (conf (list 
+                     "cocoa-frame.el"
+                     "cocoa-font.el"))
+        (load (concat user-emacs-directory "conf/cocoa/" conf))))
+     ((equal window-system nil)
+      ;; do something
+      ))
+    ))
 
 ;;
 ;; Path
