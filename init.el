@@ -85,7 +85,7 @@
 ;;
 ;; Key bind
 ;;----------------------------------------------------------------------------------
-(define-key global-map (kbd "C-t") 'next-multiframe-window)
+(define-key global-map (kbd "C-]") 'next-multiframe-window)
 
 
 ;;
