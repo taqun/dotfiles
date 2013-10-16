@@ -22,4 +22,4 @@ export PERL_CPANM_OPT="--local-lib=~/perl5"
 
 # rbenv
 eval "$(rbenv init -)"
-export PATH="$HOME/.rbenv/shims:$PATH"
+# export PATH="$HOME/.rbenv/shims:$PATH"
