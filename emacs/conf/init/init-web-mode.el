@@ -1,6 +1,7 @@
 (require 'web-mode)
 
 (add-to-list 'auto-mode-alist '("\\.html$" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.erb$" . web-mode))
 
 (setq web-mode-tag-auto-close-style 2)
 
