@@ -8,7 +8,8 @@
 [core]
     excludesfile = ~/.gitignore
 [alias]
-    st = status
+    d  = diff --exit-code
+    s  = status
     co = checkout
     hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 [push]
