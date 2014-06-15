@@ -7,9 +7,9 @@
     ui = auto
 [core]
     excludesfile = ~/.gitignore
+	editor = /usr/local/bin/emacsclient --alternate-editor /usr/local/bin/emacs
 [alias]
-    d  = diff --exit-code
-    s  = status
+    st = status
     co = checkout
     hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 [push]

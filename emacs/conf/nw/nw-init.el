@@ -1,3 +1,8 @@
+;; emacsclient
+(require 'server)
+(unless (server-running-p)
+  (server-start))
+
 ;; pbcopy
 (defun paste-to-osx (text &optional push)
   (let ((process-connection-type nil))
