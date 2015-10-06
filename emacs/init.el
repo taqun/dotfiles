@@ -49,6 +49,9 @@
 (setq auto-save-default nil)
 (setq delete-auto-save-files t)
 
+;; lock file を作らない
+(setq create-lockfiles nil)
+
 ;; タブをスペース4個分に
 (setq-default tab-width 4)
 (setq-default indent-tabs-mode nil)
