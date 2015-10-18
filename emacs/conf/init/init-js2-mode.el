@@ -4,7 +4,8 @@
 (defun my-js2-hook ()
   ;; インデント幅を 2 にする
   (setq js2-basic-offset 2
-        indent-tabs-mode nil))
+        indent-tabs-mode nil
+        js2-strict-missing-semi-warning nil))
 
 (add-hook 'js2-mode-hook 'my-js2-hook)
 
