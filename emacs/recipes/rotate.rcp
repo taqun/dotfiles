@@ -1,0 +1,5 @@
+(:name rotate
+       :website "https://github.com/daic-h/emacs-rotateq"
+       :description "Rotate the layout of emacs."
+       :type github
+       :pkgname "daic-h/emacs-rotate")

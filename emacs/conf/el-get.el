@@ -27,4 +27,5 @@
           js2-mode
           scss-mode
           markdown-mode
+          rotate
           ))
