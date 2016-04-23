@@ -8,6 +8,7 @@
 
 (add-hook 'web-mode-hook 
           (lambda()
+            (setq web-mode-markup-indent-offset 2)
             (auto-complete-mode t)
             (setq ac-sources '(ac-source-css-property
                                ac-source-dictionary
