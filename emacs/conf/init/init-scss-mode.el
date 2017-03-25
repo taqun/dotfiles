@@ -15,6 +15,7 @@
 
 (add-hook 'scss-mode-hook 
           (lambda ()
+            (set (make-local-variable 'css-indent-offset) 2)
             (add-to-list 'ac-sources 'ac-source-css-property-names)
             (flymake-mode t)
             ))
