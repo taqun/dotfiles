@@ -1,0 +1,18 @@
+"*":
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "atom-dark-ui"
+      "one-dark-syntax"
+    ]
+  editor: {}
+  "exception-reporting":
+    userId: "c3037fd8-d24f-6dd2-9faf-d2cd62eb7376"
+  metrics:
+    userId: "067a8dda167d0a6d3f62ac36d3da96d4fe657fa5"
+  "release-notes":
+    viewedVersion: "0.84.0"
+  "tree-view":
+    showOnRightSide: true
+  welcome:
+    showOnStartup: false
