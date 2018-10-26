@@ -75,3 +75,6 @@ export PATH=~/perl5/bin:/usr/local/bin:$PATH
 
 # rbenv
 eval "$(rbenv init -)"
+
+# nodebrew
+export PATH=$HOME/.nodebrew/current/bin:$PATH
