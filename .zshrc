@@ -73,11 +73,5 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-# rbenv
-# eval "$(rbenv init -)"
-
-# nodebrew
-export PATH=$HOME/.nodebrew/current/bin:$PATH
-
 # anyenv
 eval "$(anyenv init -)"
