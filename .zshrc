@@ -78,3 +78,6 @@ source $ZSH/oh-my-zsh.sh
 
 # nodebrew
 export PATH=$HOME/.nodebrew/current/bin:$PATH
+
+# anyenv
+eval "$(anyenv init -)"
