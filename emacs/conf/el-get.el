@@ -1,3 +1,8 @@
+;; Apple Silicon 移行時の対応
+(defvar browse-url-galeon-program nil)
+(defvar browse-url-netscape-program nil)
+(defvar browse-url-mosaic-program nil)
+
 (add-to-list 'load-path (concat user-emacs-directory "el-get/el-get"))
 
 (setq 
