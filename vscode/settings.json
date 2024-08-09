@@ -13,5 +13,7 @@
   "stylelint.validate": ["css", "scss"],
   "css.validate": false,
   "scss.validate": false,
-  "typescript.preferences.importModuleSpecifier": "non-relative"
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }

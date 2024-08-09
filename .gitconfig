@@ -7,7 +7,7 @@
     ui = auto
 [core]
     excludesfile = ~/.gitignore
-	editor = /usr/local/bin/emacsclient --alternate-editor /usr/local/bin/emacs
+	editor = /opt/homebrew/bin/emacs
 [alias]
     st = status
     co = checkout
