@@ -15,7 +15,7 @@
                       (file-name-directory buffer-file-name))))
     (list "perl" (list "-MProject::Libs" "-wc" local-file))))
 
-(add-to-list 'flymake-allowed-file-name-masks '("\\.cgi$" flymake-perl-init))
-(add-to-list 'flymake-allowed-file-name-masks '("\\.psgi$" flymake-perl-init))
+;; (add-to-list 'flymake-allowed-file-name-masks '("\\.cgi$" flymake-perl-init))
+;; (add-to-list 'flymake-allowed-file-name-masks '("\\.psgi$" flymake-perl-init))
 
 (define-key global-map (kbd "C-c e") 'flymake-goto-next-error)
