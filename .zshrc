@@ -56,7 +56,8 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=ja_JP.UTF-8
+export LC_ALL=ja_JP.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -95,17 +96,17 @@ source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 eval "$(anyenv init -)"
 
 #
-# flutter
+# rbenv
 #
-export PATH=~/flutter/bin:$PATH
+eval "$(rbenv init - --no-rehash zsh)"
+
 
 #
-# flutterfire_cli
+# flutter
 #
-export PATH="$PATH":"$HOME/.pub-cache/bin"
+export PATH=~/flutter/bin:$HOME/.pub-cache/bin:$PATH
 
 #
 # Claude Code
 #
-export  PATH="$PATH":"$HOME/.local/bin"
-
+export PATH=$HOME/.local/bin:$PATH

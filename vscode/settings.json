@@ -20,8 +20,11 @@
   "dart.debugExternalPackageLibraries": true,
   "dart.debugSdkLibraries": false,
   "[dart]": {
+    "editor.defaultFormatter": "Dart-Code.dart-code",
     "editor.codeActionsOnSave": {
-      "source.fixAll": "explicit"
+      "source.fixAll": "explicit",
+      "quickfix.insertSemicolon": "explicit"
     }
-  }
+  },
+  "git.openRepositoryInParentFolders": "never"
 }
