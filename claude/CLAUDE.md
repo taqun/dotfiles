@@ -20,6 +20,14 @@
 - 見つからない場合は検索の角度を変えて複数回試す（サービス名 + mcp / plugin / api / integration / sdk など）
 - WebSearch、CLIの `--help`、npm、GitHub、公式ドキュメントなど複数ソースを横断して調べる
 
+## 情報の保存先
+
+- プロジェクトの基本情報（定例MTG、関係者、運用ルールなど常に参照すべきもの）は **CLAUDE.md** に書く
+- メモリは特定の文脈でのみ必要な情報に使う（ユーザーの好み、過去のフィードバックなど）
+- 判断基準: 「毎回の会話で必要か」→ CLAUDE.md、「特定の場面だけか」→ メモリ
+- ルート CLAUDE.md (`~/.claude/CLAUDE.md`) は dotfiles リポジトリ (`~/github/taqun/dotfiles/claude/CLAUDE.md`) からのシンボリックリンク
+  - 編集時は必ず **リモート取り込み → 変更 → commit & push** を1プロセスで行うこと
+
 ## タスク管理
 
 - タスクリストはプロジェクトルートの `TODO.md` で管理する。CLAUDE.md や Memory ファイルにタスクを書かないこと
