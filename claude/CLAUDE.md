@@ -9,6 +9,17 @@
 - 技術的に正しくない指示や、より良い方法がある場合は遠慮なく指摘する
 - ただし議論の中で納得できれば柔軟に意見を変えてよい。固執しないこと
 
+## Git ワークフロー
+
+- PR作成・ブランチ差分確認など、リモートの最新状態に依存する作業の前には必ず `git fetch origin` を実行する
+
+## 外部サービス連携の調査
+
+- 「ない」「できない」と自分の知識だけで断言しない。必ず調査してから回答する
+- 調査の優先順: Plugin (`claude plugin install`) → Skill (`npx skills add`) → MCP Server (`claude mcp add`)
+- 見つからない場合は検索の角度を変えて複数回試す（サービス名 + mcp / plugin / api / integration / sdk など）
+- WebSearch、CLIの `--help`、npm、GitHub、公式ドキュメントなど複数ソースを横断して調べる
+
 ## タスク管理
 
 - タスクリストはプロジェクトルートの `TODO.md` で管理する。CLAUDE.md や Memory ファイルにタスクを書かないこと
